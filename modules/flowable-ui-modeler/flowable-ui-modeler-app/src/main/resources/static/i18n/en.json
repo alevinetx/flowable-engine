@@ -622,7 +622,7 @@
         "MULETASKENDPOINTURLPACKAGE" : {
           "MULETASKENDPOINTURL" : {
             "TITLE" : "Endpoint url",
-            "DESCRIPTION" : "A required endpoint url to sent the message to Mule."
+            "DESCRIPTION" : "A required endpoint url to send the message to Mule."
           }
         },
         "MULETASKLANGUAGEPACKAGE" : {
@@ -641,6 +641,24 @@
           "MULETASKRESULTVARIABLE" : {
             "TITLE" : "Result variable",
             "DESCRIPTION" : "An optional result variable for the payload returned."
+          }
+        },
+        "CASETASKCASEREFERENCEPACKAGE": {
+          "CASETASKCASEREFERENCE": {
+            "TITLE": "Case reference",
+            "DESCRIPTION": "Set the case reference"
+          }
+        },
+        "CASETASKINPARAMETERSPACKAGE": {
+          "CASETASKINPARAMETERS": {
+            "TITLE": "In parameters",
+            "DESCRIPTION": "Definition of the input parameters"
+          }
+        },
+        "CASETASKOUTPARAMETERSPACKAGE": {
+          "CASETASKOUTPARAMETERS": {
+            "TITLE": "Out parameters",
+            "DESCRIPTION": "Definition of the output parameters"
           }
         },
         "CONDITIONSEQUENCEFLOWPACKAGE" : {
@@ -1018,7 +1036,11 @@
         },
         "MULETASK" : {
           "TITLE" : "Mule task",
-          "DESCRIPTION" : "An task that sends a message to Mule"
+          "DESCRIPTION" : "A task that sends a message to Mule"
+        },
+        "CASETASK" : {
+          "TITLE" : "CMMN task",
+          "DESCRIPTION" : "A reference to a case definition to start a new instance"
         },
         "SENDTASK" : {
           "TITLE" : "Send task",
