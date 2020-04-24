@@ -217,6 +217,10 @@ function _drawServiceTask(element)
 	{
 		_drawMuleTaskIcon(paper, element.x + 4, element.y + 4);
 	}
+    else if (element.taskType === "case")
+    {
+        _drawCaseTaskIcon(paper, element.x + 4, element.y + 4);
+    }
     else if (element.taskType === "http")
     {
         _drawHttpTaskIcon(paper, element.x + 4, element.y + 4);
@@ -250,6 +254,13 @@ function _drawHttpServiceTask(element)
 {
     _drawTask(element);
     _drawHttpTaskIcon(paper, element.x + 4, element.y + 4);
+    _addHoverLogic(element, "rect", ACTIVITY_STROKE_COLOR);
+}
+
+function _drawCaseTask(element)
+{
+    _drawTask(element);
+    _drawCaseTaskIcon(paper, element.x + 1, element.y + 1);
     _addHoverLogic(element, "rect", ACTIVITY_STROKE_COLOR);
 }
 
