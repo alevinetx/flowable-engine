@@ -230,6 +230,9 @@ public class BpmnDisplayJsonConverter {
                     } else if ("mule".equals(serviceTask.getType())) {
                         elementNode.put("taskType", "mule");
 
+                    } else if ("case".equals(serviceTask.getType())) {
+                        elementNode.put("taskType", "case");
+
                     } else if (ServiceTask.HTTP_TASK.equals(serviceTask.getType())) {
                         elementNode.put("taskType", "http");
                     } else if (ServiceTask.SHELL_TASK.equals(serviceTask.getType())) {
