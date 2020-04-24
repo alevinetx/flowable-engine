@@ -1702,7 +1702,6 @@
         "overrideidpackage",
         "namepackage",
         "documentationpackage",
-        "blockingpackage",
         "casetaskcasereferencepackage",
         "casetaskinparameterspackage",
         "casetaskoutparameterspackage",
@@ -1715,7 +1714,7 @@
         "completionneutralrulepackage",
         "planitemlifecyclelistenerspackage"],
       "hiddenPropertyPackages" : [ ],
-      "roles" : [ "Activity", "association_start", "association_end", "ActivitiesMorph", "all" ]
+      "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
     },
 
 
