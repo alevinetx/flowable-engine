@@ -1,3 +1,8 @@
+This was forked from flowable/flowable-engine in an attempt to add Case activities to the BPM modeler.
+
+This is definitely a work in progress.  Branch:   feature/CMNN-in-BPM
+
+
 Flowable (V6)
 ========
 
